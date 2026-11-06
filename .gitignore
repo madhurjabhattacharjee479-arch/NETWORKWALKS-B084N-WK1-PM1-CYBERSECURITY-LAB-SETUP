@@ -52,3 +52,6 @@ evidence/staging/
 
 # Local evidence contact sheet
 evidence/screenshots/kali-contact-sheet.jpg
+
+# Local PDF generation environment
+.venv-pdf/

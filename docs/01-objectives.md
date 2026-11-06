@@ -23,7 +23,7 @@ The environment provides a foundation for subsequent cybersecurity exercises inv
 
 ## 3. Implemented Scope
 
-The current completed scope covers the Kali Linux base environment.
+The current completed scope covers the Kali Linux base environment and its accompanying technical documentation.
 
 | Component | Status |
 |---|---|
@@ -37,16 +37,17 @@ The current completed scope covers the Kali Linux base environment.
 | Clipboard configuration | Enabled |
 | Drag-and-drop configuration | Enabled |
 | Baseline snapshot | Created |
+| Technical documentation | Completed |
+| Consolidated technical report and evidence gallery | Completed |
 
 ## 4. Planned Extensions
 
-The following are planned activities, not part of the completed Kali setup:
+The following are planned activities and are not part of the completed Kali setup:
 
 - Android-x86 VM deployment.
 - Windows 10 VM deployment.
 - Inter-VM communication tests.
 - Wireshark practical exercises.
-- Consolidated final project report.
 
 ## 5. Expected Outcomes
 
