@@ -46,3 +46,9 @@ __pycache__/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Raw evidence backups - keep locally, do not publish
+evidence/staging/
+
+# Local evidence contact sheet
+evidence/screenshots/kali-contact-sheet.jpg

@@ -1,0 +1,40 @@
+NETWORKWALKS — B084N
+KALI LINUX NETWORK VERIFICATION
+
+Guest OS: Kali Linux 2026.3
+Interface: eth0
+IPv4 address: 10.0.0.2/24
+Gateway: 10.0.0.1
+DNS server: 8.8.8.8
+
+Recorded interface:
+eth0 UNKNOWN 10.0.0.2/24
+
+Recorded routing:
+default via 10.0.0.1 dev eth0 proto static metric 100
+10.0.0.0/24 dev eth0 proto kernel scope link src 10.0.0.2 metric 100
+
+Gateway connectivity:
+Command: ping -c 4 10.0.0.1
+Result: 4/4 replies, 0% packet loss
+Average RTT: approximately 0.752 ms
+
+External connectivity:
+Command: ping -c 4 8.8.8.8
+Result: 4/4 replies, 0% packet loss
+Average RTT: approximately 45.137 ms
+
+DNS:
+Command: nslookup google.com
+DNS server: 8.8.8.8
+Result: Successful lookup; IPv4 and IPv6 records returned.
+
+Shared folder:
+Guest mount point: /downloads
+Host share name: Shared-Files
+Test file: shared-folder-test.txt
+Result: File successfully read from Kali.
+Test content: NetworkWalks shared-folder test
+
+Note:
+This file is a curated record of previously observed results, not a fresh command execution log.

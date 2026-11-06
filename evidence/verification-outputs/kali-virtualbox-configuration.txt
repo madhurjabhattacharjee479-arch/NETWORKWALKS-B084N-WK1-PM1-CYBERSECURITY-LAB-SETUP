@@ -1,0 +1,37 @@
+NETWORKWALKS — B084N
+VIRTUALBOX CONFIGURATION SUMMARY
+
+Hypervisor: Oracle VirtualBox 7.2.8r173730
+Guest OS: Kali Linux 2026.3
+VM memory: 2048 MB
+Virtual CPUs: 2
+Video memory: 128 MB
+3D acceleration: Disabled
+
+Network adapter:
+PCnet-FAST III (Am79C973)
+
+Network attachment:
+NAT Network — NetworkWalks-NAT
+
+NAT Network:
+Subnet: 10.0.0.0/24
+Gateway: 10.0.0.1
+DHCP: Disabled
+
+Integration:
+Shared clipboard: Bidirectional enabled
+Drag and drop: Bidirectional enabled
+
+Shared folder:
+Host: <host-shared-folder-directory>
+Share name: Shared-Files
+Guest mount: /downloads
+Auto-mount: Enabled
+Permanent: Enabled
+
+Snapshot:
+NetworkWalks-Kali-Base-Setup
+
+Note:
+Clipboard and drag-and-drop settings were configured, but a separate functional transfer test was not recorded.
