@@ -1,0 +1,48 @@
+# Virtual machines and disks
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+*.iso
+*.sav
+*.vbox
+*.vbox-prev
+
+# Backups and archives
+*.zip
+*.7z
+*.rar
+*.bak
+
+# Recordings
+*.mkv
+*.mp4
+*.mov
+*.avi
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
